@@ -1,0 +1,37 @@
+---
+title: "Aug 30 Problems"
+author: "Audrey Holloman"
+date: "8/30/2018"
+output: html_document
+---
+
+Problem 1
+```{r}
+X <- 0:10
+print(X)
+
+test_scores <- seq(0, 100, by = 2)
+print(test_scores)
+
+pH <- seq(0, 14, 0.1)
+print(pH)
+
+game <- c("rock", "paper", "scissors", "lizard", "spock")
+print(game)
+
+clock <- seq(60, 0)
+print(clock)
+
+song <- c("I get knocked down", "But I get up again", "You're never gonna keep me down")
+rep(song)
+
+types <- c("A", "B", "AB", "O")
+freqs <- c(40, 11, 4, 45)
+rep(types, times = freqs)
+```
+
+Problem 2
+```{r}
+
+```
+
